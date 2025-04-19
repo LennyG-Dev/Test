@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-token = os.getenv('ETHERYA')
+token = os.getenv('LennyTestBotToken')
 
 client = discord.Client(intents=discord.Intents.all())
 
