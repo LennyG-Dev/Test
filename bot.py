@@ -15,6 +15,6 @@ async def on_ready():
     print(f"Bot connecté en tant que {bot.user} ({bot.user.id})")
 
 # --- Lancement du bot ---
-token = os.environ['ETHERYA']
+token = os.environ['LennyTestBotToken']
 keep_alive()  # Lance le petit serveur Flask pour maintenir le service en ligne
 bot.run(token)
